@@ -8,7 +8,6 @@ function printTriangle($height) {
     }
 }
 
-// Allowing the user to set the height of the triangle
 $height = (int) readline("Enter the height of the triangle: ");
 printTriangle($height);
 ?>
